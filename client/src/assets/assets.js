@@ -84,6 +84,22 @@ import Condiments from "./Condiments.png";
 import Bread from "./Bread.avif";
 import FrozenFood from "./FrozenFood.jpg";
 import GreatTastecoffee from "./GreatTastecoffee.jpg";
+import SoapSafeguard from "./SoapSafeguard.jpg";
+import Shampoo from "./Shampoo.jpg";
+import Shampoobottle from "./Shampoobottle.jpg";
+import Toothpaste from "./Toothpaste.jpg";
+import FeminineHygience from "./FeminineHygience.jpg";
+import SkinCareMyra from "./SkinCareMyra.jpg";
+import Deodorant from "./Deodorant.png";
+import LaundryDetergent from "./LaundryDetergent.jpg";
+import Dishwashing from "./Dishwashing.jpg";
+import Redhourse from "./Redhourse.png";
+import BabyEssentials from "./BabyEssentials.jpg";
+import BabyFormula from "./BabyFormula.jpg";
+
+
+
+
 export const assets = {
   mainminim,
   minimlogo,
@@ -127,7 +143,19 @@ export const assets = {
   Condiments,
   Bread,
   FrozenFood,
-  GreatTastecoffee
+  GreatTastecoffee,
+  SoapSafeguard,
+  Shampoo,
+  Shampoobottle,
+  Toothpaste,
+  SkinCareMyra,
+  FeminineHygience,
+  Deodorant,
+  LaundryDetergent,
+  Dishwashing,
+  Redhourse,
+  BabyEssentials,
+  BabyFormula
 };
 
 
@@ -888,37 +916,37 @@ export const categoriesData = {
           text: "Shampoos & Conditioners",
           description: "Hair care products",
           path: "shampoos-conditioners",
-          image: ""
+          image: Shampoobottle
         },
         {
           text: "Soap & Body Wash",
           description: "Body cleansing products",
           path: "soap-body-wash",
-          image: ""
+          image: SoapSafeguard
         },
         {
           text: "Toothpaste & Toothbrushes",
           description: "Oral care products",
           path: "toothpaste-toothbrushes",
-          image: ""
+          image: Toothpaste
         },
         {
           text: "Feminine Hygiene",
           description: "Women's health products",
           path: "feminine-hygiene",
-          image: ""
+          image: FeminineHygience
         },
         {
           text: "Deodorant",
           description: "Personal freshness",
           path: "deodorant",
-          image: ""
+          image: Deodorant
         },
         {
           text: "Lotion & Skincare Products",
           description: "Skin care essentials",
           path: "lotion-skincare",
-          image: ""
+          image: SkinCareMyra
         }
       ]
     },
@@ -930,13 +958,13 @@ export const categoriesData = {
           text: "Laundry Detergents",
           description: "Clothes washing essentials",
           path: "laundry-detergents",
-          image: ""
+          image: LaundryDetergent
         },
         {
           text: "Dishwashing Liquids",
           description: "Kitchen cleaning",
           path: "dishwashing-liquids",
-          image: ""
+          image: Dishwashing
         },
         {
           text: "Cleaning Supplies",
@@ -963,22 +991,17 @@ export const categoriesData = {
       title: " Baby & Kids",
       items: [
         {
-          text: "Diapers",
+          text: "Baby Wipes & Diapers",
           description: "Baby care essentials",
-          path: "diapers",
-          image: ""
+          path: "Baby",
+          image: BabyEssentials
         },
-        {
-          text: "Baby Wipes",
-          description: "Gentle cleaning",
-          path: "baby-wipes",
-          image: ""
-        },
+        
         {
           text: "Baby Food & Formula",
           description: "Infant nutrition",
           path: "baby-food-formula",
-          image: ""
+          image: BabyFormula
         }
       ]
     },
@@ -1014,7 +1037,7 @@ export const categoriesData = {
           text: "Alcoholic Drinks",
           description: "B1eers, RTDs",
           path: "Drinks",
-          image: ""
+          image: Redhourse
         },
         {
           text: "Cigarettes / Tobacco",
